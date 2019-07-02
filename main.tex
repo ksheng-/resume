@@ -1,0 +1,190 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letter,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[margin=1in, top=.75in, bottom=.75in]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\renewcommand*{\namefont}{\fontsize{24}{24}\bfseries\upshape} % \titlefont, \addressfont, \quotefont, \sectionfont, \subsectionfont, \hintfont and \pagenumberfont.
+\renewcommand*{\titlefont}{\fontsize{12}{12}\mdseries\upshape}
+% \renewcommand*{\sectionfont}{\fontsize{14}{16}\mdseries\itshape}  
+% \renewcommand*{\hintfont}{\fontsize{5}{12}} 
+% personal data
+\name{Kevin}{Sheng}
+\title{New York, NY $\cdot$ \textbf{US Citizen} }                               % optional, remove / comment the line if not wanted
+% \address{New York, NY 10009}%{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{(404)~314~7774}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+% \phone[fixed]{+2~(345)~678~901}
+% \phone[fax]{+3~(456)~789~012}
+\email{kevin.s.sheng@gmail.com}                               % optional, remove / comment the line if not wanted
+% \homepage{kevinsheng.net}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{linkedin.com/in/ksheng-}                        % optional, remove / comment the line if not wanted
+% \social[xing]{john\_doe}                           % optional, remove / comment the line if not wanted
+% \social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github]{github.com/ksheng-}                              % optional, remove / comment the line if not wanted
+% \social[gitlab]{jdoe}                              % optional, remove / comment the line if not wanted
+% \social[skype]{jdoe}                               % optional, remove / comment the line if not wanted
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-.5in}
+\section{Education}
+    \cventry{Degree}{B.E. Electrical Engineering}{The Cooper Union}{New York, NY}{\textbf{GPA: 3.61}}{Expected May 2018}  % arguments 3 to 6 can be left empty
+\cvitem{Honors}{Innovator's Scholarship, Half-Tuition Scholarship, National Merit Scholarship Winner}
+\cvitem{Coursework}{Machine Learning, Artificial Intelligence, Compilers, Operating Systems, Advanced Computer Architecture, Digital Signal Processing, FPGA Design, Electronics, Communication Theory, Communication Networks, Data Structures \& Algorithms, Databases}
+% \section{Master thesis}
+% \cvitem{title}{\emph{Title}}
+% \cvitem{supervisors}{Supervisors}
+% \cvitem{description}{Short thesis abstract}
+
+\section{Experience}
+% \subsection{Vocational}
+% \cventry{2016--Present}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+% Detailed achievements:%
+% \begin{itemize}%
+	% \item Achievement 1;
+	% \item Achievement 2, with sub-achievements:
+		% \begin{itemize}%
+			% \item Sub-achievement (a);
+			% \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+				% \begin{itemize}
+					% \item Sub-sub-achievement i;
+					% \item Sub-sub-achievement ii;
+					% \item Sub-sub-achievement iii;
+				% \end{itemize}
+			% \item Sub-achievement (c);
+		% \end{itemize}
+	% \item Achievement 3.
+% \end{itemize}}
+\cventry{2017-2018}{Cooper Union Formula SAE Team}{Electronics System Lead}{New York, NY}{}{
+	\begin{itemize}
+		\item Engineered electronic, sensor, and power systems for the FSAE Michigan 2018 racecar.
+	\end{itemize}}
+\cventry{Summer 2017}{Lucera Financial Infrastructures}{Software Engineering Intern}{New York, NY}{}{
+	\begin{itemize}
+		\item Built a client facing foreign exchange analysis and visualization platform with D3.js and React.
+        \item Designed a Python backend to fetch, cache and analyze data from a massive (on the order of billions of records) columnar database in a tractable amount of time.
+        \item Implemented a machine learning algorithm using spectral clustering to generate LP groups with minimized bid-ask spread.
+	\end{itemize}}
+    
+\cventry{2016--2017}{Distributed Intelligent Agents Lab}{Student Researcher}{New York, NY}{}{
+	\begin{itemize}
+		\item Designed an intelligent traffic coordination algorithm that leverages both game theoretic and reinforcement learning approaches to minimize the effect of selfish routing on traffic flow.
+        \item Demonstrated reduced congestion and average travel times in Python simulations, converging towards the social optimum in Braess' networks where the Nash equilibrium is non-optimal.
+	\end{itemize}}
+
+\cventry{Summer 2016}{Kulite Semiconductor Products}{Intern}{Leonia, NJ}{}{
+	\begin{itemize}
+		\item Created an automated test stand for high performance pressure transducers, using MATLAB to rapidly adjust environmental parameters while minimizing measurement inaccuracies.
+		\item Increased the throughput and resolution of data collection, successfully characterizing unexpected nonlinear effects at near vacuum pressure through data visualization.
+	\end{itemize}}
+
+\cventry{Summer 2015}{OHSU Center for Spoken Language Understanding}{Intern}{Portland, OR}{}{
+	\begin{itemize}
+		\item Created a sensor synchronization system for audio and accelerometer data used to detect cerebral palsy in infants, using a Goertzel filter, modified STFT, and cross-correlation implemented in R to quickly and accurately find the time offset between datasets.
+	\end{itemize}}
+
+\section{Projects}
+
+\cventry{2017--Present}{FRAME: Face Recognition with Augmented Mobile Eyewear}{}{}{}{
+	\begin{itemize}
+		\item Engineered glasses that identify faces, overlaying personal information using near-eye optics.
+		\item Wrote a 30FPS real-time face tracking algorithm on a RPi 3 (Cortex A53) using a Viola-Jones detector and correlation tracker, leveraging SIMD extensions and OpenMP multithreading.
+		\item Performed face recognition using a convolutional neural network on a remote ZMQ server.
+	\end{itemize}}
+    
+\cventry{2016--Present}{Electronic Throttle Control}{Formula SAE Michigan 2017}{Cooper Motorsports}{}{
+	\begin{itemize}
+		\item Designed a drive-by-wire system that uses sensor data to optimally control throttle position. 
+		\item Modeled, simulated, and tuned a PID motor control system with Simulink, using dynamometer and track torque/power data in order to facilitate fast and smooth throttle response.
+		\item Implemented in C on an STM32F4, an ARM Cortex M4 MCU, with a custom EAGLE PCB.
+	\end{itemize}}
+
+\cventry{Spring 2017}{C Compiler}{}{}{}{
+	\begin{itemize}
+		\item Wrote a lexical analyzer and syntax parser for a subset of the C language, building an abstract syntax tree and generating a quads intermediate representation and target x86 assembly.
+	\end{itemize}}
+
+\cventry{2015--2016}{Data Acquisition}{Formula SAE Michigan 2016}{Cooper Motorsports}{}{
+	\begin{itemize}
+		\item Created a sensor system to measure, store, and display vehicle performance data, implementing custom sensors and interfacing with existing engine sensors over CAN.
+	\end{itemize}}
+
+% \section{Languages}
+% \cvitemwithcomment{Language 1}{Skill level}{Comment}
+% \cvitemwithcomment{Language 2}{Skill level}{Comment}
+% \cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Skills}
+\cvitemwithcomment{Languages}{C, C++, Python, MATLAB, Javascript (React.js, D3.js), HTML/CSS, SQL}{Proficient}
+\cvitemwithcomment{}{Java, VHDL, Assembly (x86, MIPS), R, Bash}{Familiar}
+\cvitem{Software}{Unix, git, Simulink, Xilinx Vivado, EAGLE, LTSpice, Cadence Spectre, SolidWorks}
+
+\pagebreak
+
+% \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+% \cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+% \cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+
+% \section{Interests}
+% \cvitem{hobby 1}{Description}
+% \cvitem{hobby 2}{Description}
+% \cvitem{hobby 3}{Description}
+
+% \section{Extra 1}
+% \cvlistitem{Item 1}
+% \cvlistitem{Item 2}
+% \cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+% \section{Extra 2}
+% \cvlistdoubleitem{Item 1}{Item 4}
+% \cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+% \cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+% \section{References}
+% \begin{cvcolumns}
+% \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+		% \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+					% \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+% \end{cvcolumns}
+
+\end{document}
+
+
+%% end of file `template.tex'.
